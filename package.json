@@ -7,6 +7,10 @@
     "engines": {
         "vscode": "^1.21.0"
     },
+    "repository" :{
+        "type" : "git",
+        "url" : "https://github.com/villematti/js-template-syntax-highlight.git"
+    },
     "categories": [
         "Other"
     ],
@@ -29,7 +33,7 @@
         "grammars": [
             {
                 "language": "js-template",
-                "scopeName": "text.js.js-template",
+                "scopeName": "text.js-template",
                 "path": "./syntaxes/js-template.tmLanguage"
             }
         ]
